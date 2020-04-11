@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200412 00:08:24.691" rpa="false">
+<suite id="s1" name="RobotProject practice" source="C:\Users\aruna\eclipse-workspace\RobotProject_practice">
+<suite id="s1-s1" name="Userdefinedkeywords" source="C:\Users\aruna\eclipse-workspace\RobotProject_practice\userdefinedkeywords.robot">
+<test id="s1-s1-t1" name="User defined keyword usage test case">
+<kw name="Start Browser" library="Resources1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200412 00:08:25.019" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20200412 00:08:28.316" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20200412 00:08:28.314" endtime="20200412 00:08:28.316"></status>
+</kw>
+<msg timestamp="20200412 00:08:28.326" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 75
+</msg>
+<status status="FAIL" starttime="20200412 00:08:25.018" endtime="20200412 00:08:28.327"></status>
+</kw>
+<status status="FAIL" starttime="20200412 00:08:25.017" endtime="20200412 00:08:28.328"></status>
+</kw>
+<status status="FAIL" starttime="20200412 00:08:25.016" endtime="20200412 00:08:28.329" critical="yes">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 75
+</status>
+</test>
+<test id="s1-s1-t2" name="Using Builtin keywords">
+<kw name="Compare two files" library="Resources1">
+<arguments>
+<arg>${data}</arg>
+<arg>${data1}</arg>
+</arguments>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>../RobotProject_practice/data/${file1}</arg>
+</arguments>
+<assign>
+<var>${file3}</var>
+</assign>
+<msg timestamp="20200412 00:08:28.334" level="INFO" html="yes">Getting file '&lt;a href="file://C:\Users\aruna\eclipse-workspace\RobotProject_practice\data\dic_file_1.txt"&gt;C:\Users\aruna\eclipse-workspace\RobotProject_practice\data\dic_file_1.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20200412 00:08:28.335" level="INFO">${file3} = {'name':'aruna','gender':'f'}
+{'name':'simon','gender':'m'}
+</msg>
+<status status="PASS" starttime="20200412 00:08:28.333" endtime="20200412 00:08:28.336"></status>
+</kw>
+<kw name="Get File" library="OperatingSystem">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>../RobotProject_practice/data/${file2}</arg>
+</arguments>
+<assign>
+<var>${file4}</var>
+</assign>
+<msg timestamp="20200412 00:08:28.337" level="INFO" html="yes">Getting file '&lt;a href="file://C:\Users\aruna\eclipse-workspace\RobotProject_practice\data\dic_file_2.txt"&gt;C:\Users\aruna\eclipse-workspace\RobotProject_practice\data\dic_file_2.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20200412 00:08:28.339" level="INFO">${file4} = [{'name':'aruna','gender':'f'},
+{'name':'simon','gender':'m'}
+]</msg>
+<status status="PASS" starttime="20200412 00:08:28.336" endtime="20200412 00:08:28.339"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${file3}</arg>
+</arguments>
+<msg timestamp="20200412 00:08:28.340" level="INFO">{'name':'aruna','gender':'f'}
+{'name':'simon','gender':'m'}
+</msg>
+<status status="PASS" starttime="20200412 00:08:28.340" endtime="20200412 00:08:28.341"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${file4}</arg>
+</arguments>
+<msg timestamp="20200412 00:08:28.343" level="INFO">[{'name':'aruna','gender':'f'},
+{'name':'simon','gender':'m'}
+]</msg>
+<status status="PASS" starttime="20200412 00:08:28.342" endtime="20200412 00:08:28.343"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${file3}</arg>
+<arg>${file4}</arg>
+</arguments>
+<msg timestamp="20200412 00:08:28.345" level="FAIL">{'name':'aruna','gender':'f'}
+{'name':'simon','gender':'m'}
+ != [{'name':'aruna','gender':'f'},
+{'name':'simon','gender':'m'}
+]</msg>
+<status status="FAIL" starttime="20200412 00:08:28.344" endtime="20200412 00:08:28.345"></status>
+</kw>
+<status status="FAIL" starttime="20200412 00:08:28.332" endtime="20200412 00:08:28.346"></status>
+</kw>
+<status status="FAIL" starttime="20200412 00:08:28.330" endtime="20200412 00:08:28.346" critical="yes">{'name':'aruna','gender':'f'}
+{'name':'simon','gender':'m'}
+ != [{'name':'aruna','gender':'f'},
+{'name':'simon','gender':'m'}
+]</status>
+</test>
+<status status="FAIL" starttime="20200412 00:08:24.756" endtime="20200412 00:08:28.348"></status>
+</suite>
+<status status="FAIL" starttime="20200412 00:08:24.727" endtime="20200412 00:08:28.351"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="2" id="s1" name="RobotProject practice">RobotProject practice</stat>
+<stat pass="0" fail="2" id="s1-s1" name="Userdefinedkeywords">RobotProject practice.Userdefinedkeywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

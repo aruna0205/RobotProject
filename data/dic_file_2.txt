@@ -1,0 +1,3 @@
+[{'name':'aruna','gender':'f'},
+{'name':'simon','gender':'m'}
+]
