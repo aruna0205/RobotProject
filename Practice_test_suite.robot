@@ -39,6 +39,9 @@ MyThirdTest
 MyTest
     [Tags]    tag1
     Log    I am inside my test  
+    
+Test1
+    Log    Hello world
         
 # MySeleniumTest
     # Open Browser    https://github.com/robotframework/SeleniumLibrary/    Google Chrome
