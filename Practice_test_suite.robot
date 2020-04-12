@@ -41,7 +41,7 @@ MyTest
     Log    I am inside my test  
     
 Test1
-    Log    Hello world
+    Log    Hi This is my test 1
         
 # MySeleniumTest
     # Open Browser    https://github.com/robotframework/SeleniumLibrary/    Google Chrome
