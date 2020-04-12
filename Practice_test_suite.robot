@@ -42,6 +42,7 @@ MyTest
     
 Test1
     Log    Hi This is my test 1
+    Log    Added a new line
         
 # MySeleniumTest
     # Open Browser    https://github.com/robotframework/SeleniumLibrary/    Google Chrome
