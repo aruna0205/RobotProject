@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200412 19:21:07.063" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200412 19:33:07.464" rpa="false">
 <suite id="s1" name="Maths Operations" source="C:\Users\aruna\eclipse-workspace\RobotProject_practice\maths_operations.robot">
 <test id="s1-t1" name="Test div operation">
 <kw name="Pass Execution If" library="BuiltIn">
@@ -8,12 +8,12 @@
 <arg>${number2}==0</arg>
 <arg>Encountered Division by zero</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.094" level="INFO">Execution passed with message:
+<msg timestamp="20200412 19:33:07.492" level="INFO">Execution passed with message:
 Encountered Division by zero</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.491" endtime="20200412 19:33:07.492"></status>
 </kw>
 <doc>This test will test divison operation</doc>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094" critical="yes">Encountered Division by zero</status>
+<status status="PASS" starttime="20200412 19:33:07.491" endtime="20200412 19:33:07.492" critical="yes">Encountered Division by zero</status>
 </test>
 <test id="s1-t2" name="Test division operation">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -43,23 +43,23 @@ Encountered Division by zero</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${result} = 5.0</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.493" level="INFO">${result} = 5.0</msg>
+<status status="PASS" starttime="20200412 19:33:07.493" endtime="20200412 19:33:07.493"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.492" endtime="20200412 19:33:07.493"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${result} = 5.0</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.493" level="INFO">${result} = 5.0</msg>
+<status status="PASS" starttime="20200412 19:33:07.492" endtime="20200412 19:33:07.493"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>The result of ${number1} divided by ${number3} is ${result}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.094" level="INFO">The result of 10 divided by 2 is 5.0</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.493" level="INFO">The result of 10 divided by 2 is 5.0</msg>
+<status status="PASS" starttime="20200412 19:33:07.493" endtime="20200412 19:33:07.493"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.492" endtime="20200412 19:33:07.493" critical="yes"></status>
 </test>
 <test id="s1-t3" name="Test average operation">
 <kw name="Average Operation" library="maths_op_resource">
@@ -80,9 +80,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">Length is 4</msg>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${number_of_arguments} = 4</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.494" level="INFO">Length is 4</msg>
+<msg timestamp="20200412 19:33:07.494" level="INFO">${number_of_arguments} = 4</msg>
+<status status="PASS" starttime="20200412 19:33:07.494" endtime="20200412 19:33:07.494"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -92,8 +92,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${sum} = 0</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.494" level="INFO">${sum} = 0</msg>
+<status status="PASS" starttime="20200412 19:33:07.494" endtime="20200412 19:33:07.494"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -105,10 +105,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${sum} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.495" level="INFO">${sum} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.495" endtime="20200412 19:33:07.495"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.495" endtime="20200412 19:33:07.495"></status>
 </kw>
 <kw name="${argument} = 2" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -119,10 +119,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${sum} = 3</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.495" level="INFO">${sum} = 3</msg>
+<status status="PASS" starttime="20200412 19:33:07.495" endtime="20200412 19:33:07.495"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.495" endtime="20200412 19:33:07.495"></status>
 </kw>
 <kw name="${argument} = 3" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -133,10 +133,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${sum} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.496" level="INFO">${sum} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.495" endtime="20200412 19:33:07.496"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.495" endtime="20200412 19:33:07.496"></status>
 </kw>
 <kw name="${argument} = 4" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -147,12 +147,12 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${sum} = 10</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.496" level="INFO">${sum} = 10</msg>
+<status status="PASS" starttime="20200412 19:33:07.496" endtime="20200412 19:33:07.496"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.496" endtime="20200412 19:33:07.496"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<status status="PASS" starttime="20200412 19:33:07.494" endtime="20200412 19:33:07.496"></status>
 </kw>
 <kw name="Evaluate" library="BuiltIn">
 <doc>Evaluates the given expression in Python and returns the results.</doc>
@@ -162,21 +162,21 @@ Encountered Division by zero</msg>
 <assign>
 <var>${average_result}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${average_result} = 2.5</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.496" level="INFO">${average_result} = 2.5</msg>
+<status status="PASS" starttime="20200412 19:33:07.496" endtime="20200412 19:33:07.496"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.094" level="INFO">${result_avg} = 2.5</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.496" level="INFO">${result_avg} = 2.5</msg>
+<status status="PASS" starttime="20200412 19:33:07.494" endtime="20200412 19:33:07.496"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Average of ${no_1}, ${no_2}, ${no_3}, ${no_4} is ${result_avg}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.094" level="INFO">Average of 1, 2, 3, 4 is 2.5</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094"></status>
+<msg timestamp="20200412 19:33:07.497" level="INFO">Average of 1, 2, 3, 4 is 2.5</msg>
+<status status="PASS" starttime="20200412 19:33:07.496" endtime="20200412 19:33:07.497"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.094" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.493" endtime="20200412 19:33:07.497" critical="yes"></status>
 </test>
 <test id="s1-t4" name="Test avg operation">
 <kw name="Average Operation" library="maths_op_resource">
@@ -194,9 +194,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.094" level="INFO">Length is 6</msg>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${number_of_arguments} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.497" level="INFO">Length is 6</msg>
+<msg timestamp="20200412 19:33:07.498" level="INFO">${number_of_arguments} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.497" endtime="20200412 19:33:07.498"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -206,8 +206,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 0</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.498" level="INFO">${sum} = 0</msg>
+<status status="PASS" starttime="20200412 19:33:07.498" endtime="20200412 19:33:07.498"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -219,10 +219,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.498" level="INFO">${sum} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.498" endtime="20200412 19:33:07.498"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.498" endtime="20200412 19:33:07.498"></status>
 </kw>
 <kw name="${argument} = 9" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -233,10 +233,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 10</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.499" level="INFO">${sum} = 10</msg>
+<status status="PASS" starttime="20200412 19:33:07.499" endtime="20200412 19:33:07.499"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.498" endtime="20200412 19:33:07.499"></status>
 </kw>
 <kw name="${argument} = 1" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -247,10 +247,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 11</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.499" level="INFO">${sum} = 11</msg>
+<status status="PASS" starttime="20200412 19:33:07.499" endtime="20200412 19:33:07.499"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.499" endtime="20200412 19:33:07.499"></status>
 </kw>
 <kw name="${argument} = -1" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -261,10 +261,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 10</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.500" level="INFO">${sum} = 10</msg>
+<status status="PASS" starttime="20200412 19:33:07.499" endtime="20200412 19:33:07.500"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.499" endtime="20200412 19:33:07.500"></status>
 </kw>
 <kw name="${argument} = 5" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -275,10 +275,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 15</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.500" level="INFO">${sum} = 15</msg>
+<status status="PASS" starttime="20200412 19:33:07.500" endtime="20200412 19:33:07.500"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.500" endtime="20200412 19:33:07.500"></status>
 </kw>
 <kw name="${argument} = 8" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -289,12 +289,12 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 23</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.500" level="INFO">${sum} = 23</msg>
+<status status="PASS" starttime="20200412 19:33:07.500" endtime="20200412 19:33:07.500"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.500" endtime="20200412 19:33:07.500"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.498" endtime="20200412 19:33:07.500"></status>
 </kw>
 <kw name="Evaluate" library="BuiltIn">
 <doc>Evaluates the given expression in Python and returns the results.</doc>
@@ -304,21 +304,21 @@ Encountered Division by zero</msg>
 <assign>
 <var>${average_result}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${average_result} = 3.8333333333333335</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.501" level="INFO">${average_result} = 3.8333333333333335</msg>
+<status status="PASS" starttime="20200412 19:33:07.500" endtime="20200412 19:33:07.501"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${result_average} = 3.8333333333333335</msg>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.501" level="INFO">${result_average} = 3.8333333333333335</msg>
+<status status="PASS" starttime="20200412 19:33:07.497" endtime="20200412 19:33:07.501"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Average is ${result_average}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.110" level="INFO">Average is 3.8333333333333335</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.501" level="INFO">Average is 3.8333333333333335</msg>
+<status status="PASS" starttime="20200412 19:33:07.501" endtime="20200412 19:33:07.501"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.094" endtime="20200412 19:21:07.110" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.497" endtime="20200412 19:33:07.501" critical="yes"></status>
 </test>
 <test id="s1-t5" name="Test max number">
 <kw name="Maximum Number Operation" library="maths_op_resource">
@@ -336,9 +336,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">Length is 6</msg>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${number_of_arguments} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.502" level="INFO">Length is 6</msg>
+<msg timestamp="20200412 19:33:07.502" level="INFO">${number_of_arguments} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.502" endtime="20200412 19:33:07.502"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -348,8 +348,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${max}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.502" level="INFO">${max} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.502" endtime="20200412 19:33:07.502"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -371,12 +371,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.503" endtime="20200412 19:33:07.503"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.503" level="INFO">${max} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.502" endtime="20200412 19:33:07.503"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.502" endtime="20200412 19:33:07.503"></status>
 </kw>
 <kw name="${argument} = 9" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -397,12 +397,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.503" endtime="20200412 19:33:07.503"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.503" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.503" endtime="20200412 19:33:07.503"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.503" endtime="20200412 19:33:07.503"></status>
 </kw>
 <kw name="${argument} = 1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -423,12 +423,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.504" endtime="20200412 19:33:07.504"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.504" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.503" endtime="20200412 19:33:07.504"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.503" endtime="20200412 19:33:07.504"></status>
 </kw>
 <kw name="${argument} = -1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -449,12 +449,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.504" endtime="20200412 19:33:07.504"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.505" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.504" endtime="20200412 19:33:07.505"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.504" endtime="20200412 19:33:07.505"></status>
 </kw>
 <kw name="${argument} = 5" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -475,12 +475,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.505" endtime="20200412 19:33:07.505"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.505" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.505" endtime="20200412 19:33:07.505"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.505" endtime="20200412 19:33:07.505"></status>
 </kw>
 <kw name="${argument} = 8" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -501,27 +501,27 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.506" endtime="20200412 19:33:07.506"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.506" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.505" endtime="20200412 19:33:07.506"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.505" endtime="20200412 19:33:07.506"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.502" endtime="20200412 19:33:07.506"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${result_max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.506" level="INFO">${result_max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.501" endtime="20200412 19:33:07.506"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Maximum number is ${result_max}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.110" level="INFO">Maximum number is 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.507" level="INFO">Maximum number is 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.506" endtime="20200412 19:33:07.507"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.501" endtime="20200412 19:33:07.507" critical="yes"></status>
 </test>
 <test id="s1-t6" name="Test min number">
 <kw name="Minimum Number Operation" library="maths_op_resource">
@@ -539,9 +539,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">Length is 6</msg>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${number_of_arguments} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.507" level="INFO">Length is 6</msg>
+<msg timestamp="20200412 19:33:07.507" level="INFO">${number_of_arguments} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.507" endtime="20200412 19:33:07.507"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -551,8 +551,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${min}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.508" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.508" endtime="20200412 19:33:07.508"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -574,12 +574,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.509" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.508" endtime="20200412 19:33:07.509"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.508" endtime="20200412 19:33:07.509"></status>
 </kw>
 <kw name="${argument} = 9" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -600,12 +600,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${min}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.509" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
 <kw name="${argument} = 1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -626,12 +626,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.509" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.509" endtime="20200412 19:33:07.509"></status>
 </kw>
 <kw name="${argument} = -1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -652,12 +652,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.510" endtime="20200412 19:33:07.510"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.510" level="INFO">${min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.510" endtime="20200412 19:33:07.510"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.510" endtime="20200412 19:33:07.510"></status>
 </kw>
 <kw name="${argument} = 5" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -678,12 +678,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${min}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.510" endtime="20200412 19:33:07.511"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.511" level="INFO">${min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.510" endtime="20200412 19:33:07.511"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.510" endtime="20200412 19:33:07.511"></status>
 </kw>
 <kw name="${argument} = 8" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -704,27 +704,27 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${min}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.511" endtime="20200412 19:33:07.511"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.511" level="INFO">${min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.511" endtime="20200412 19:33:07.511"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.511" endtime="20200412 19:33:07.511"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.508" endtime="20200412 19:33:07.511"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${result_min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.511" level="INFO">${result_min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.507" endtime="20200412 19:33:07.511"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Minimum number is ${result_min}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.110" level="INFO">Minimum number is -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.512" level="INFO">Minimum number is -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.511" endtime="20200412 19:33:07.512"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.507" endtime="20200412 19:33:07.512" critical="yes"></status>
 </test>
 <test id="s1-t7" name="Test Avg, Min and Max">
 <kw name="Average Operation" library="maths_op_resource">
@@ -742,9 +742,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">Length is 6</msg>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${number_of_arguments} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.512" level="INFO">Length is 6</msg>
+<msg timestamp="20200412 19:33:07.512" level="INFO">${number_of_arguments} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.512" endtime="20200412 19:33:07.512"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -754,8 +754,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 0</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.513" level="INFO">${sum} = 0</msg>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.513"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -767,10 +767,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.513" level="INFO">${sum} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.513"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.513"></status>
 </kw>
 <kw name="${argument} = 9" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -781,10 +781,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.110" level="INFO">${sum} = 10</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<msg timestamp="20200412 19:33:07.513" level="INFO">${sum} = 10</msg>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.513"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.110"></status>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.513"></status>
 </kw>
 <kw name="${argument} = 1" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -795,10 +795,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${sum} = 11</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.514" level="INFO">${sum} = 11</msg>
+<status status="PASS" starttime="20200412 19:33:07.514" endtime="20200412 19:33:07.514"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.514"></status>
 </kw>
 <kw name="${argument} = -1" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -809,10 +809,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${sum} = 10</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.514" level="INFO">${sum} = 10</msg>
+<status status="PASS" starttime="20200412 19:33:07.514" endtime="20200412 19:33:07.514"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.514" endtime="20200412 19:33:07.514"></status>
 </kw>
 <kw name="${argument} = 5" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -823,10 +823,10 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${sum} = 15</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.515" level="INFO">${sum} = 15</msg>
+<status status="PASS" starttime="20200412 19:33:07.514" endtime="20200412 19:33:07.515"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.514" endtime="20200412 19:33:07.515"></status>
 </kw>
 <kw name="${argument} = 8" type="foritem">
 <kw name="Evaluate" library="BuiltIn">
@@ -837,12 +837,12 @@ Encountered Division by zero</msg>
 <assign>
 <var>${sum}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${sum} = 23</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.515" level="INFO">${sum} = 23</msg>
+<status status="PASS" starttime="20200412 19:33:07.515" endtime="20200412 19:33:07.515"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.515" endtime="20200412 19:33:07.515"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.513" endtime="20200412 19:33:07.515"></status>
 </kw>
 <kw name="Evaluate" library="BuiltIn">
 <doc>Evaluates the given expression in Python and returns the results.</doc>
@@ -852,11 +852,11 @@ Encountered Division by zero</msg>
 <assign>
 <var>${average_result}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${average_result} = 3.8333333333333335</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.515" level="INFO">${average_result} = 3.8333333333333335</msg>
+<status status="PASS" starttime="20200412 19:33:07.515" endtime="20200412 19:33:07.515"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${result_average} = 3.8333333333333335</msg>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.515" level="INFO">${result_average} = 3.8333333333333335</msg>
+<status status="PASS" starttime="20200412 19:33:07.512" endtime="20200412 19:33:07.515"></status>
 </kw>
 <kw name="Maximum Number Operation" library="maths_op_resource">
 <arguments>
@@ -873,9 +873,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">Length is 6</msg>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${number_of_arguments} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.516" level="INFO">Length is 6</msg>
+<msg timestamp="20200412 19:33:07.516" level="INFO">${number_of_arguments} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.516" endtime="20200412 19:33:07.516"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -885,8 +885,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${max}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.516" level="INFO">${max} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.516" endtime="20200412 19:33:07.516"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -908,12 +908,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.517" endtime="20200412 19:33:07.517"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.517" level="INFO">${max} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.516" endtime="20200412 19:33:07.517"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.516" endtime="20200412 19:33:07.517"></status>
 </kw>
 <kw name="${argument} = 9" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -934,12 +934,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.517" endtime="20200412 19:33:07.517"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.517" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.517" endtime="20200412 19:33:07.517"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.517" endtime="20200412 19:33:07.517"></status>
 </kw>
 <kw name="${argument} = 1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -960,12 +960,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.518" endtime="20200412 19:33:07.518"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.518" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.518" endtime="20200412 19:33:07.518"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.517" endtime="20200412 19:33:07.519"></status>
 </kw>
 <kw name="${argument} = -1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -986,12 +986,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.519"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.519" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.519"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.519"></status>
 </kw>
 <kw name="${argument} = 5" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1012,12 +1012,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.519"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.519" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.519"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.519"></status>
 </kw>
 <kw name="${argument} = 8" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1038,17 +1038,17 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${max}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.520"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.520" level="INFO">${max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.520"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.519" endtime="20200412 19:33:07.520"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.516" endtime="20200412 19:33:07.520"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${result_max} = 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.520" level="INFO">${result_max} = 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.516" endtime="20200412 19:33:07.520"></status>
 </kw>
 <kw name="Minimum Number Operation" library="maths_op_resource">
 <arguments>
@@ -1065,9 +1065,9 @@ Encountered Division by zero</msg>
 <assign>
 <var>${number_of_arguments}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">Length is 6</msg>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${number_of_arguments} = 6</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.520" level="INFO">Length is 6</msg>
+<msg timestamp="20200412 19:33:07.520" level="INFO">${number_of_arguments} = 6</msg>
+<status status="PASS" starttime="20200412 19:33:07.520" endtime="20200412 19:33:07.520"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -1077,8 +1077,8 @@ Encountered Division by zero</msg>
 <assign>
 <var>${min}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.521" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.520" endtime="20200412 19:33:07.521"></status>
 </kw>
 <kw name="${argument} IN [ @{argument_list} ]" type="for">
 <kw name="${argument} = 1" type="foritem">
@@ -1100,12 +1100,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.521" endtime="20200412 19:33:07.521"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.521" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.521" endtime="20200412 19:33:07.521"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.521" endtime="20200412 19:33:07.521"></status>
 </kw>
 <kw name="${argument} = 9" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1126,12 +1126,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${min}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.522" endtime="20200412 19:33:07.522"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.522" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.521" endtime="20200412 19:33:07.522"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.521" endtime="20200412 19:33:07.522"></status>
 </kw>
 <kw name="${argument} = 1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1152,12 +1152,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.522" endtime="20200412 19:33:07.523"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = 1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.523" level="INFO">${min} = 1</msg>
+<status status="PASS" starttime="20200412 19:33:07.522" endtime="20200412 19:33:07.523"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.522" endtime="20200412 19:33:07.523"></status>
 </kw>
 <kw name="${argument} = -1" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1178,12 +1178,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${argument}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.523" endtime="20200412 19:33:07.523"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.523" level="INFO">${min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.523" endtime="20200412 19:33:07.523"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.523" endtime="20200412 19:33:07.523"></status>
 </kw>
 <kw name="${argument} = 5" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1204,12 +1204,12 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${min}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.524" endtime="20200412 19:33:07.524"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.524" level="INFO">${min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.523" endtime="20200412 19:33:07.524"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.523" endtime="20200412 19:33:07.524"></status>
 </kw>
 <kw name="${argument} = 8" type="foritem">
 <kw name="Run Keyword If" library="BuiltIn">
@@ -1230,51 +1230,51 @@ Encountered Division by zero</msg>
 <arguments>
 <arg>${min}</arg>
 </arguments>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.524" endtime="20200412 19:33:07.524"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.524" level="INFO">${min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.524" endtime="20200412 19:33:07.524"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.524" endtime="20200412 19:33:07.524"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.521" endtime="20200412 19:33:07.524"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${result_min} = -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.525" level="INFO">${result_min} = -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.520" endtime="20200412 19:33:07.525"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Data is @{list}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.125" level="INFO">Data is ['1', '9', '1', '-1', '5', '8']</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.525" level="INFO">Data is ['1', '9', '1', '-1', '5', '8']</msg>
+<status status="PASS" starttime="20200412 19:33:07.525" endtime="20200412 19:33:07.525"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Average is ${result_average}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.125" level="INFO">Average is 3.8333333333333335</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.525" level="INFO">Average is 3.8333333333333335</msg>
+<status status="PASS" starttime="20200412 19:33:07.525" endtime="20200412 19:33:07.525"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Maximum number is ${result_max}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.125" level="INFO">Maximum number is 9</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.525" level="INFO">Maximum number is 9</msg>
+<status status="PASS" starttime="20200412 19:33:07.525" endtime="20200412 19:33:07.525"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>Minimum number is ${result_min}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.125" level="INFO">Minimum number is -1</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.525" level="INFO">Minimum number is -1</msg>
+<status status="PASS" starttime="20200412 19:33:07.525" endtime="20200412 19:33:07.526"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.110" endtime="20200412 19:21:07.125" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.512" endtime="20200412 19:33:07.526" critical="yes"></status>
 </test>
 <test id="s1-t8" name="Test mod operation">
 <kw name="Modular Operation" library="maths_op_resource">
@@ -1293,23 +1293,23 @@ Encountered Division by zero</msg>
 <assign>
 <var>${result}</var>
 </assign>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${result} = 0</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.526" level="INFO">${result} = 0</msg>
+<status status="PASS" starttime="20200412 19:33:07.526" endtime="20200412 19:33:07.527"></status>
 </kw>
-<msg timestamp="20200412 19:21:07.125" level="INFO">${result_mod} = 0</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.527" level="INFO">${result_mod} = 0</msg>
+<status status="PASS" starttime="20200412 19:33:07.526" endtime="20200412 19:33:07.527"></status>
 </kw>
 <kw name="Log" library="BuiltIn">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>The reminder of ${number1} divided by ${number3} is ${result_mod}</arg>
 </arguments>
-<msg timestamp="20200412 19:21:07.125" level="INFO">The reminder of 10 divided by 2 is 0</msg>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125"></status>
+<msg timestamp="20200412 19:33:07.527" level="INFO">The reminder of 10 divided by 2 is 0</msg>
+<status status="PASS" starttime="20200412 19:33:07.527" endtime="20200412 19:33:07.527"></status>
 </kw>
-<status status="PASS" starttime="20200412 19:21:07.125" endtime="20200412 19:21:07.125" critical="yes"></status>
+<status status="PASS" starttime="20200412 19:33:07.526" endtime="20200412 19:33:07.527" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20200412 19:21:07.063" endtime="20200412 19:21:07.125"></status>
+<status status="PASS" starttime="20200412 19:33:07.465" endtime="20200412 19:33:07.527"></status>
 </suite>
 <statistics>
 <total>

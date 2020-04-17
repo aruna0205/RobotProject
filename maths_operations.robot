@@ -23,8 +23,8 @@ Test div operation
 
 
 Test division operation
-    ${result}=    Run Keyword If    ${number3}==0    Fail    Encountered Division by Zero    ELSE    Division Operation    ${number1}    ${number3}    
-    Log    The result of ${number1} divided by ${number3} is ${result}
+    ${result}=    Run Keyword If    ${number2}==0    Fail    Encountered Division by Zero    ELSE    Division Operation    ${number1}    ${number2}    
+    Log    The result of ${number1} divided by ${number2} is ${result}
     
 Test average operation
     ${result_avg}    Average Operation    ${no_1}    ${no_2}    ${no_3}    ${no_4}
